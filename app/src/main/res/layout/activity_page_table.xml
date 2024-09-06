@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PageTableActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+
+        <TableRow
+            android:background="#FFFFF0">
+
+            <TextView
+                android:layout_height="37dp"
+                android:layout_column="1"
+                android:background="#BEDBE9"
+                android:padding="3dp"
+                android:text="Open..."
+                android:textAlignment="viewStart"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#BEDBE9"
+                android:gravity="right"
+                android:padding="3dp"
+                android:text="CTRL + O"
+                android:textSize="16sp" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="37dp"
+                android:layout_column="1"
+                android:background="#BEDBE9"
+                android:padding="3dp"
+                android:text="Save..."
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#BEDBE9"
+                android:gravity="right"
+                android:padding="3dp"
+                android:text="CTRL + S"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:background="#FFFF00">
+
+            <TextView
+                android:layout_height="37dp"
+                android:layout_column="1"
+                android:padding="3dp"
+                android:text="Exit..."
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_height="match_parent"
+                android:gravity="right"
+                android:padding="3dp"
+                android:text="CTRL + W"
+                android:textSize="16sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="#FFFF00">
+
+            <TextView
+                android:layout_height="37dp"
+                android:layout_column="1"
+                android:padding="3dp"
+                android:text="QUIT..."
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_height="match_parent"
+                android:gravity="right"
+                android:padding="3dp"
+                android:text="CTRL + Q"
+                android:textSize="16sp" />
+        </TableRow>
+
+    </TableLayout>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
